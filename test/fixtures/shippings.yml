@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tracking: MyString
+  weight: MyString
+  date: MyString
+  cost: MyString
+  address: MyString
+
+two:
+  tracking: MyString
+  weight: MyString
+  date: MyString
+  cost: MyString
+  address: MyString

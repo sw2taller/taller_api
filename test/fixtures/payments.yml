@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  orderNumber: MyString
+  status: MyString
+  date: MyString
+  method: MyString
+  account: MyString
+
+two:
+  orderNumber: MyString
+  status: MyString
+  date: MyString
+  method: MyString
+  account: MyString
