@@ -5,11 +5,11 @@ one:
   address: MyString
   phone: MyString
   orders: MyString
-  id: MyString
+  identifier: MyString
 
 two:
   name: MyString
   address: MyString
   phone: MyString
   orders: MyString
-  id: MyString
+  identifier: MyString

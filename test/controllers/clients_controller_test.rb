@@ -12,7 +12,7 @@ class ClientsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create client" do
     assert_difference('Client.count') do
-      post clients_url, params: { client: { address: @client.address, id: @client.id, name: @client.name, orders: @client.orders, phone: @client.phone } }, as: :json
+      post clients_url, params: { client: { address: @client.address, identifier: @client.identifier, name: @client.name, orders: @client.orders, phone: @client.phone } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class ClientsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update client" do
-    patch client_url(@client), params: { client: { address: @client.address, id: @client.id, name: @client.name, orders: @client.orders, phone: @client.phone } }, as: :json
+    patch client_url(@client), params: { client: { address: @client.address, identifier: @client.identifier, name: @client.name, orders: @client.orders, phone: @client.phone } }, as: :json
     assert_response 200
   end
 
